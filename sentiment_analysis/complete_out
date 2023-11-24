@@ -1,0 +1,99 @@
+Splitting into lists...
+Getting predictions...
+distilbert-base-uncased-finetuned-sst-2-english 250
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 250/250 [00:00<00:00, 1198372.57it/s]
+Formatting predictions...
+{'NEGATIVE', 'POSITIVE'}
+Calculating accuracy score...
+Score:
+0.904
+[[118   7]
+ [ 17 108]]
+0:01:33.293336
+
+---
+
+JiaqiLee/imdb-finetuned-bert-base-uncased 500
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [00:00<00:00, 628266.03it/s]
+Formatting predictions...
+{'negative', 'positive'}
+Calculating accuracy score...
+Score:
+0.91
+[[226  24]
+ [ 21 229]]
+0:06:17.785625
+
+---
+
+distilbert-base-uncased-finetuned-sst-2-english 500
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [00:00<00:00, 1104927.29it/s]
+Formatting predictions...
+{'NEGATIVE', 'POSITIVE'}
+Calculating accuracy score...
+Score:
+0.886
+[[233  17]
+ [ 40 210]]
+0:03:09.364746
+
+---
+
+cardiffnlp/twitter-roberta-base-sentiment-latest 500
+Some weights of the model checkpoint at cardiffnlp/twitter-roberta-base-sentiment-latest were not used when initializing RobertaForSequenceClassification: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [00:00<00:00, 1544294.55it/s]
+Formatting predictions...
+{'negative', 'neutral', 'positive'}
+Calculating accuracy score...
+Score:
+0.74
+[[226  24]
+ [106 144]]
+0:05:56.106953
+
+---
+
+JiaqiLee/imdb-finetuned-bert-base-uncased 1000
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 2120477.25it/s]
+Formatting predictions...
+{'negative', 'positive'}
+Calculating accuracy score...
+Score:
+0.916
+[[461  39]
+ [ 45 455]]
+0:12:10.212574
+
+---
+
+distilbert-base-uncased-finetuned-sst-2-english 1000
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 1425664.17it/s]
+Formatting predictions...
+{'NEGATIVE', 'POSITIVE'}
+Calculating accuracy score...
+Score:
+0.879
+[[466  34]
+ [ 87 413]]
+0:06:02.374010
+
+---
+
+cardiffnlp/twitter-roberta-base-sentiment-latest 1000
+Some weights of the model checkpoint at cardiffnlp/twitter-roberta-base-sentiment-latest were not used when initializing RobertaForSequenceClassification: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 1089712.65it/s]
+Formatting predictions...
+{'negative', 'neutral', 'positive'}
+Calculating accuracy score...
+Score:
+0.77
+[[446  54]
+ [176 324]]
+0:12:19.114545
+
+---
+
